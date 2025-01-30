@@ -137,15 +137,21 @@ nav ul li a:hover::after {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row; /* This is the crucial change */
-    align-items: center;
+
+    /* align-items: center; */
 }
 
 .about-col-1 {
     flex-basis: 35%;
+    margin-top: 30px;
+
 }
 
 .about-col-1 img {
-    width: 100%;  /* Make the image responsive within its container */
+  /* Make the image responsive within its container */ 
+   width: 100%;
+   height: 92%;  /*changes*/
+
 
 /* height: 100%; */
     border-radius: 12px;
@@ -446,7 +452,7 @@ nav .fas {
     #header {
         /* background-size: contain;
         height: auto; */
-        background-image: url(images/new.png) ;
+        background-image: url(images/new.png);
 
     }
 
