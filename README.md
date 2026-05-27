@@ -37,7 +37,7 @@ A sleek, fully responsive personal portfolio website built with vanilla **HTML**
 
 | Desktop | Mobile |
 |---|---|
-| ![Desktop Preview](images/bg1_enhanced_enhanced.png) | ![Mobile Preview](images/new.png) |
+| ![Desktop Preview](images/one.png) | ![Mobile Preview](images/oneone.png) |
 
 </div>
 
