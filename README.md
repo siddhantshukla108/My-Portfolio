@@ -11,7 +11,7 @@
 
 A sleek, fully responsive personal portfolio website built with vanilla **HTML**, **CSS**, and **JavaScript** — featuring a dark-themed UI, smooth animations, and a working contact form.
 
-[**View Live Demo »**](https://siddhantshukla108.github.io/My-Portfolio) · [**Report Bug »**](../../issues) · [**Request Feature »**](../../issues)
+[**View Live Demo »**](https://siddhantshukla108.github.io/My-Portfolio/) · [**Report Bug »**](../../issues) · [**Request Feature »**](../../issues)
 
 </div>
 
