@@ -1,111 +1,165 @@
-# 🌐 My Portfolio — Siddhant Shukla
+<div align="center">
+
+# 🚀 Siddhant Shukla — Personal Portfolio
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)
 
 > *"Building dreams in code, one bug at a time."*
 
-A personal portfolio website showcasing my projects, skills, and journey as a developer currently diving deep into the **MERN stack** and **3D-React**.
+A sleek, fully responsive personal portfolio website built with vanilla **HTML**, **CSS**, and **JavaScript** — featuring a dark-themed UI, smooth animations, and a working contact form.
 
----
+[**View Live Demo »**](https://siddhantshukla108.github.io/My-Portfolio) · [**Report Bug »**](../../issues) · [**Request Feature »**](../../issues)
 
-## 🚀 Live Demo
-
-🔗 [View Portfolio](https://siddhantshukla108.github.io/My-Portfolio)
+</div>
 
 ---
 
 ## ✨ Features
 
-- 🎨 Clean, responsive UI design
-- 📱 Mobile-friendly layout
-- 🧩 Sections: About, Skills, Projects, and Contact
-- ⚡ Smooth animations and transitions
-- 📬 Contact form / direct email links
-
----
-
-## 🛠️ Built With
-
-| Technology | Purpose |
+| Feature | Description |
 |---|---|
-| HTML5 | Page structure |
-| CSS3 | Styling & animations |
-| JavaScript | Interactivity |
+| 🎨 **Dark Theme UI** | Premium dark aesthetic with vibrant red (`#ff004f`) accent color scheme |
+| 📱 **Fully Responsive** | Adapts seamlessly from desktop to mobile with a slide-in hamburger menu |
+| 🧭 **Smooth Navigation** | Single-page layout with smooth scroll navigation between sections |
+| 🧑‍💻 **Interactive Tabs** | Skills, Experience & Education tabs with dynamic content switching |
+| 🖼️ **Project Showcase** | Hover-to-reveal overlay cards displaying project details |
+| 📨 **Contact Form** | Functional form with Google Sheets integration for message collection |
+| ⚡ **Micro-Animations** | Hover effects, underline transitions, card lifts & image zoom on interaction |
 
 ---
 
-## 📁 Project Structure
+## 📸 Preview
+
+<div align="center">
+
+| Desktop | Mobile |
+|---|---|
+| ![Desktop Preview](images/bg1_enhanced_enhanced.png) | ![Mobile Preview](images/new.png) |
+
+</div>
+
+---
+
+## 🏗️ Project Structure
 
 ```
 My-Portfolio/
-├── index.html          # Main entry point
-├── style.css           # Stylesheet
-├── script.js           # JavaScript logic
-└── assets/             # Images, icons, and media
+│
+├── index.html          # Main HTML — all sections (Home, About, Services, Portfolio, Contact)
+├── style.css           # Complete styling — dark theme, responsive breakpoints, animations
+├── script.js           # Tab switching logic (Skills / Experience / Education)
+├── mobile.js           # Mobile hamburger menu open/close handlers
+├── 4.jpg               # Favicon
+│
+└── images/
+    ├── bg1_enhanced_enhanced.png   # Desktop hero background
+    ├── new.png                     # Mobile hero background
+    ├── two.png                     # About section profile image
+    ├── bookStore.avif              # Project thumbnail — Online Book Store
+    ├── foodStore.png               # Project thumbnail — Food Store
+    ├── Travel.png                  # Project thumbnail — Travelling Website
+    └── ...                         # Other assets
 ```
 
 ---
 
-## 🧑‍💻 Featured Projects
+## 🛠️ Tech Stack
 
-### 🤖 Supriya Bot
-A region-based AI chatbot designed for emotionally intelligent, real-time conversations with a personalized flair.
-
-### 🍔 Food Store
-A visually engaging, fully responsive food store UI built with HTML, CSS, and JavaScript.
-
-### 🕐 Analog Clock
-A classic analog clock rendered entirely in HTML & CSS.
-
-### 📓 DeVyne Diary
-A blog application built with JavaScript for writing and managing personal entries.
-
-### 🧠 DeVyne Quiz App
-An interactive quiz application to test knowledge across various topics.
+- **Structure** — HTML5 with semantic markup
+- **Styling** — Vanilla CSS3 (Flexbox, CSS Grid, Media Queries, Transitions)
+- **Typography** — [Google Fonts — Poppins](https://fonts.google.com/specimen/Poppins)
+- **Icons** — [Font Awesome 6](https://fontawesome.com/)
+- **Form Backend** — Google Apps Script (Google Sheets integration)
 
 ---
 
-## ⚙️ Getting Started
+## 🚀 Getting Started
 
-To run this project locally:
+### Prerequisites
 
-```bash
-# Clone the repository
-git clone https://github.com/siddhantshukla108/My-Portfolio.git
+No build tools, package managers, or frameworks needed — just a browser!
 
-# Navigate into the directory
-cd My-Portfolio
+### Run Locally
 
-# Open in your browser
-open index.html
-# or simply drag index.html into your browser
-```
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/siddhantshukla108/My-Portfolio.git
+   ```
+
+2. **Navigate to the project**
+
+   ```bash
+   cd My-Portfolio
+   ```
+
+3. **Open in browser**
+
+   Simply open `index.html` in your browser, or use a live server:
+
+   ```bash
+   # Using VS Code Live Server extension, or:
+   npx serve .
+   ```
+
+### Set Up Contact Form (Optional)
+
+The contact form submits messages to a Google Sheet via Apps Script.
+
+1. Create a Google Sheet and open **Extensions → Apps Script**.
+2. Deploy a web app that accepts `POST` requests and writes form data to the sheet.
+3. Copy the deployment URL and replace the placeholder in `index.html`:
+
+   ```js
+   const scriptURL = 'YOUR_GOOGLE_SHEETS_SCRIPT_URL_HERE'
+   ```
 
 ---
 
-## 📬 Contact
+## 📄 Sections
 
-Feel free to reach out or collaborate!
-
-- 📧 **Email:** [shuklasiddhant365@gmail.com](mailto:shuklasiddhant365@gmail.com)
-- 💼 **GitHub:** [@siddhantshukla108](https://github.com/siddhantshukla108)
+| # | Section | Description |
+|---|---|---|
+| 1 | **Home** | Hero banner with name, title, and CTA button |
+| 2 | **About** | Bio, profile image, and tabbed Skills/Experience/Education |
+| 3 | **Services** | Service cards for Web Design, Competitive Programming & UI Design |
+| 4 | **Portfolio** | Project showcase with hover-reveal overlays |
+| 5 | **Contact** | Contact info, social links, CV download, and a message form |
 
 ---
 
 ## 🤝 Contributing
 
-Open-source contributions, bug reports, and feature suggestions are always welcome!
+Contributions, issues, and feature requests are welcome!
 
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/YourFeature`
-3. Commit your changes: `git commit -m 'Add YourFeature'`
-4. Push to the branch: `git push origin feature/YourFeature`
+1. Fork the project
+2. Create your feature branch — `git checkout -b feature/amazing-feature`
+3. Commit your changes — `git commit -m "Add amazing feature"`
+4. Push to the branch — `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
 ---
 
-## 📄 License
+## 📜 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-<p align="center">Made with ❤️ by <strong>Siddhant Shukla</strong></p>
+## 📬 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddhant-shukla-182420298/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siddhantshukla108)
+
+---
+
+<div align="center">
+
+**⭐ If you found this project helpful, please give it a star!**
+
+Made with ❤️ by **Siddhant Shukla**
+
+</div>
